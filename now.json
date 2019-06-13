@@ -1,4 +1,7 @@
 {
   "name": "fakerql",
+  "env": {
+    "JWT_SECRET": "1234"
+  },
   "version": 1
 }
