@@ -9,7 +9,7 @@
     "start": "nodemon -e ts,graphql -x ts-node -r dotenv/config src",
     "playground": "graphql playground",
     "deploy": "now --public --dotenv .env.production && now alias && now rm --yes --safe fakerql.com",
-    "build": "rimraf dist && tsc",
+    "build": "tsc",
     "now-start": "node dist"
   },
   "devDependencies": {
